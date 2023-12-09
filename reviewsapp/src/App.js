@@ -5,10 +5,26 @@ import Review from './components/review';
 function App() {
   return (
     <div className="App">
-      
-      <Review />
 
+      <h1 className='titulo'> Estos son algunas reviews de nuestros clientes:</h1>
       
+      <div className='component'>
+      <Review />
+      </div>
+      <div className='component'>
+      <Review />
+      </div>
+      <div className='component'>
+      <Review />
+      </div>
+      <div className='component'>
+      <Review />
+      </div>
+      <div className='component'>
+      <Review />
+      </div>
+
+     
     </div>
   );
 }

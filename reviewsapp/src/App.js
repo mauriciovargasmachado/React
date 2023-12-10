@@ -6,22 +6,23 @@ function App() {
   return (
     <div className="App">
 
-      <h1 className='titulo'> Estos son algunas reviews de nuestros clientes:</h1>
-      
-      <div className='component'>
-      <Review />
+      <div className='titulo'>
+        <h1 > Estos son algunas reviews de nuestros clientes:</h1>
       </div>
       <div className='component'>
-      <Review />
+        <Review />
       </div>
       <div className='component'>
-      <Review />
+        <Review />
       </div>
       <div className='component'>
-      <Review />
+        <Review />
       </div>
       <div className='component'>
-      <Review />
+        <Review />
+      </div>
+      <div className='component'>
+        <Review />
       </div>
 
      

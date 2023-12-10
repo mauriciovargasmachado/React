@@ -6,9 +6,9 @@
 }
 
 .titulo{
-    font-size: 42px;
+    font-size: 22px;
     max-width: 940px;
-    font-family: Lato;
+    font-family: Lato, sans-serif; 
     font-weight: 700;
     line-height: 1.1;
     margin: 40px 0;

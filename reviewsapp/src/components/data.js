@@ -4,7 +4,10 @@ const generateRandomData = () => {
   
   const randomName = faker.person.fullName();
   const jobTitle = faker.name.jobTitle();
-  const review = faker.lorem.paragraph();
+  let review;
+  do {
+    review = faker.lorem.paragraph();
+  } while (review.length <= 500);
 
   return { randomName, jobTitle, review };
 };

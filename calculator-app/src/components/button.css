@@ -1,0 +1,15 @@
+.botton{
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3rem;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 4px;
+    cursor: pointer;
+
+
+}

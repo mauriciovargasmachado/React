@@ -8,7 +8,13 @@
 </head>
 <body>
     <h1>Test of image Galery</h1>
-    <div class="container">
+    <div class="add_elements">
+        <input type="text" id="image_URL" placeholder="Picture URL">
+        <input type="text" id="description" placeholder="Photo description">
+        <button onclick="addItem()">Add New Item</button>
+    </div>
+
+    <div class="container" id="image_gallery">
         <div>
             <img src="../Images/Image 1.jpeg">
             <p>This is the text of image 1</p>
